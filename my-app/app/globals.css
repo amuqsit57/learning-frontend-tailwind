@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+/* ---------- Light theme ---------- */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --abdi:#ff0066;
+  --primary: #2563eb;
+  --primary-foreground: #ffffff;
+
+  --border: #e5e7eb;
+}
+
+/* ---------- Dark theme ---------- */
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+
+  --primary: #3b82f6;
+  --primary-foreground: #020617;
+
+  --border: #1f2937;
+}
+
+
+/* ---------- Base styles ---------- */
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
