@@ -4,7 +4,7 @@ export default function Header(){
     return(
         <>
         <header>
-            <div className="bg-red ">
+            <div className="bg-primary  ">
                 {/* Logo */}
                 <div className="div">
                     <Image 

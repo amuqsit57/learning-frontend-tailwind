@@ -9,13 +9,26 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        /* Base */
         background: "var(--background)",
         foreground: "var(--foreground)",
-        abdi: "var(--abdi)",
+
+        /* Brand */
         primary: "var(--primary)",
         primaryForeground: "var(--primary-foreground)",
 
+        secondary: "var(--secondary)",
+        secondaryForeground: "var(--secondary-foreground)",
+
+        /* UI */
+        card: "var(--card)",
         border: "var(--border)",
+        muted: "var(--muted)",
+
+        /* States */
+        success: "var(--success)",
+        warning: "var(--warning)",
+        error: "var(--error)",
       },
     },
   },

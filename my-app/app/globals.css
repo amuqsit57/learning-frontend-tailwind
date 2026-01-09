@@ -3,26 +3,51 @@
 
 /* ---------- Light theme ---------- */
 :root {
+  /* Base */
   --background: #ffffff;
-  --foreground: #171717;
-  --abdi:#ff0066;
-  --primary: #2563eb;
+  --foreground: #111827;
+
+  /* Brand */
+  --primary: #f97316;
   --primary-foreground: #ffffff;
 
+  --secondary: #111827;
+  --secondary-foreground: #ffffff;
+
+  /* UI */
+  --card: #fff7ed;
   --border: #e5e7eb;
+  --muted: #6b7280;
+
+  /* States */
+  --success: #16a34a;
+  --warning: #facc15;
+  --error: #dc2626;
 }
 
 /* ---------- Dark theme ---------- */
 .dark {
-  --background: #0a0a0a;
-  --foreground: #ededed;
+  /* Base */
+  --background: #0f172a;
+  --foreground: #f9fafb;
 
-  --primary: #3b82f6;
+  /* Brand */
+  --primary: #fb923c;
   --primary-foreground: #020617;
 
-  --border: #1f2937;
-}
+  --secondary: #e5e7eb;
+  --secondary-foreground: #020617;
 
+  /* UI */
+  --card: #1e293b;
+  --border: #334155;
+  --muted: #94a3b8;
+
+  /* States */
+  --success: #22c55e;
+  --warning: #fde047;
+  --error: #ef4444;
+}
 
 /* ---------- Base styles ---------- */
 body {
