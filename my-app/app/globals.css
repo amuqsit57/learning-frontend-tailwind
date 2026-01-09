@@ -1,5 +1,12 @@
 @import "tailwindcss";
 @config "../tailwind.config.js";
+/* ---------- Reset spacing ---------- */
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+}
 
 /* ---------- Light theme ---------- */
 :root {
@@ -11,7 +18,7 @@
   --primary: #f97316;
   --primary-foreground: #ffffff;
 
-  --secondary: #111827;
+  --secondary: #ffff00;
   --secondary-foreground: #ffffff;
 
   /* UI */
@@ -53,4 +60,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
+
 }
+
+
