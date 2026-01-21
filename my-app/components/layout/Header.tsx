@@ -1,12 +1,13 @@
 import Image from "next/image";
 import { BiSearch } from "react-icons/bi";
 import { CiShoppingCart } from "react-icons/ci";
+import  ThemeToggle from "../theme/ThemeToggle";
 
 export default function Header(){
     return(
         <>
         <header>
-            <div className="flex items-center justify-between bg-secondary/30 p-2">
+            <div className="flex items-center justify-between bg-primary p-2">
                 {/* Logo */}
                 <div className="flex items-center justify-center gap-2">
                     <Image 
@@ -25,12 +26,13 @@ export default function Header(){
                             <BiSearch 
                             />
                         </div>
-                        <div className="bg-primary p-2 rounded-full ">
+                    <div className=" p-2 rounded-full bg-background">
                               <CiShoppingCart 
-                            className="w-5 h-5 text-primaryForeground"
+                            className="w-5 h-5 text-foreground"
                             />
                       
                         </div>
+                        <ThemeToggle/>
 
                         
                         
